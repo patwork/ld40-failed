@@ -1,0 +1,129 @@
+[gd_scene load_steps=55 format=1]
+
+[ext_resource path="res://scripts/cat.gd" type="Script" id=1]
+[ext_resource path="res://sprites/walk-l-0001.png" type="Texture" id=2]
+[ext_resource path="res://sprites/walk-l-0002.png" type="Texture" id=3]
+[ext_resource path="res://sprites/walk-l-0003.png" type="Texture" id=4]
+[ext_resource path="res://sprites/walk-l-0004.png" type="Texture" id=5]
+[ext_resource path="res://sprites/walk-l-0005.png" type="Texture" id=6]
+[ext_resource path="res://sprites/walk-l-0006.png" type="Texture" id=7]
+[ext_resource path="res://sprites/walk-l-0007.png" type="Texture" id=8]
+[ext_resource path="res://sprites/walk-l-0008.png" type="Texture" id=9]
+[ext_resource path="res://sprites/walk-l-0009.png" type="Texture" id=10]
+[ext_resource path="res://sprites/walk-l-0010.png" type="Texture" id=11]
+[ext_resource path="res://sprites/walk-l-0011.png" type="Texture" id=12]
+[ext_resource path="res://sprites/walk-l-0012.png" type="Texture" id=13]
+[ext_resource path="res://sprites/walk-l-0013.png" type="Texture" id=14]
+[ext_resource path="res://sprites/walk-l-0014.png" type="Texture" id=15]
+[ext_resource path="res://sprites/walk-l-0015.png" type="Texture" id=16]
+[ext_resource path="res://sprites/walk-l-0016.png" type="Texture" id=17]
+[ext_resource path="res://sprites/walk-l-0017.png" type="Texture" id=18]
+[ext_resource path="res://sprites/walk-l-0018.png" type="Texture" id=19]
+[ext_resource path="res://sprites/walk-l-0019.png" type="Texture" id=20]
+[ext_resource path="res://sprites/walk-l-0020.png" type="Texture" id=21]
+[ext_resource path="res://sprites/walk-l-0021.png" type="Texture" id=22]
+[ext_resource path="res://sprites/walk-l-0022.png" type="Texture" id=23]
+[ext_resource path="res://sprites/walk-l-0023.png" type="Texture" id=24]
+[ext_resource path="res://sprites/walk-l-0024.png" type="Texture" id=25]
+[ext_resource path="res://sprites/walk-l-0025.png" type="Texture" id=26]
+[ext_resource path="res://sprites/walk-l-0026.png" type="Texture" id=27]
+[ext_resource path="res://sprites/walk-l-0027.png" type="Texture" id=28]
+[ext_resource path="res://sprites/walk-l-0028.png" type="Texture" id=29]
+[ext_resource path="res://sprites/walk-l-0029.png" type="Texture" id=30]
+[ext_resource path="res://sprites/walk-l-0030.png" type="Texture" id=31]
+[ext_resource path="res://sprites/drown-0001.png" type="Texture" id=32]
+[ext_resource path="res://sprites/drown-0002.png" type="Texture" id=33]
+[ext_resource path="res://sprites/drown-0003.png" type="Texture" id=34]
+[ext_resource path="res://sprites/drown-0004.png" type="Texture" id=35]
+[ext_resource path="res://sprites/drown-0005.png" type="Texture" id=36]
+[ext_resource path="res://sprites/drown-0006.png" type="Texture" id=37]
+[ext_resource path="res://sprites/drown-0007.png" type="Texture" id=38]
+[ext_resource path="res://sprites/drown-0008.png" type="Texture" id=39]
+[ext_resource path="res://sprites/drown-0009.png" type="Texture" id=40]
+[ext_resource path="res://sprites/drown-0010.png" type="Texture" id=41]
+[ext_resource path="res://sprites/sit-0001.png" type="Texture" id=42]
+[ext_resource path="res://sprites/sit-0002.png" type="Texture" id=43]
+[ext_resource path="res://sprites/sit-0003.png" type="Texture" id=44]
+[ext_resource path="res://sprites/sit-0004.png" type="Texture" id=45]
+[ext_resource path="res://sprites/sit-0005.png" type="Texture" id=46]
+[ext_resource path="res://sprites/sit-0006.png" type="Texture" id=47]
+[ext_resource path="res://sprites/sit-0007.png" type="Texture" id=48]
+[ext_resource path="res://sprites/sit-0008.png" type="Texture" id=49]
+[ext_resource path="res://sprites/sit-0009.png" type="Texture" id=50]
+[ext_resource path="res://sprites/sit-0010.png" type="Texture" id=51]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "walk",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "drown",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
+"loop": true,
+"name": "sit",
+"speed": 15.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 10.0
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[node name="cat" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+
+frames = SubResource( 1 )
+animation = "sit"
+frame = 1
+playing = true
+
+[node name="collision-whole" type="Area2D" parent="."]
+
+input/pickable = true
+shapes/0/shape = SubResource( 2 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="collision-whole"]
+
+shape = SubResource( 2 )
+trigger = false
+_update_shape_index = 0
+
+[node name="collision-legs" type="Area2D" parent="."]
+
+input/pickable = true
+shapes/0/shape = SubResource( 3 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="collision-legs"]
+
+shape = SubResource( 3 )
+trigger = false
+_update_shape_index = 0
+
+
